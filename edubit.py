@@ -166,7 +166,7 @@ def is_overvoltage():
         return False
 
 def read_Vin():
-    return i2cRead(REG_ADD_VIN / 10)
+    return i2cRead(REG_ADD_VIN) / 10
 
 def set_led(color,state):
     if color == Red:
