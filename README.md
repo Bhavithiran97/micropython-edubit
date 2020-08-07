@@ -63,7 +63,7 @@ music.play(music.DADADADUM)
 Play custom notes
 ```python
 import music
-#starting tune of "Twinkle Twinkle Little Start"
+#starting tune of "Twinkle Twinkle Little Star"
 tune=["C4:1","C4:1","G4:1","G4:1","A4:1","A4:1","G4:1"]
 music.set_tempo(ticks=2)
 music.play(tune)
