@@ -186,7 +186,7 @@ while True:
 	sleep(200)
 	set_led(Red, 0)
 	set_led(Yellow, 0)
-	set_led(Green, 0)
+	set_led(Green, 1)
 	sleep(200)
 ```
 ## Sound Bit
