@@ -1,7 +1,7 @@
 # [EDU:BIT](https://www.cytron.io/p-edubit-training-and-project-kit-for-microbit?tracking=b-py) Extension for MicroPython
 EDU:BIT is a beginner-friendly [micro:bit](https://www.cytron.io/p-micro-bit-board?tracking=b-py) kit specially designed to encourage kids to explore STEAM and learn coding.
 This MicroPython library provides extension for [EDU:BIT Training & Project Kit for micro:bit](https://www.cytron.io/p-edubit-training-and-project-kit-for-microbit?tracking=b-py)
-![enter image description here](https://my.cytron.io/image/cache/catalog/products/EDUBIT/EDUBIT-labels-800-lq-800x800.png)
+![image](https://user-images.githubusercontent.com/34527010/203696913-c697c1a7-73df-4606-a6d2-d3cdbea8b239.png)
 
 **Python  editor  for micro:bit**
 
