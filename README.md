@@ -291,7 +291,8 @@ while True:
 	else:
 		display.clear()
 ```
-## Power
+## Power Monitoring
+This section is for advance user who interested in monitor the power of REKA:BIT. 
 
 Show power input voltage
 ```python
