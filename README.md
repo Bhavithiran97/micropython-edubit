@@ -317,16 +317,33 @@ while True:
 	if is_overvoltage():
 		display.show(Image.SAD)
 ```
-**Reset REKA:BIT**
+**Reset EDU:BIT**
 
-Add `power_monitor()` function in a *while loop* to reset the REKA:BIT. 
-The motors will not be reset after toggling if this function is not used because the PIC microcontroller in REKA:BIT will not reset without this function.
+Add `power_monitor()` function in a *while loop* to monitor the power state of REKA:BIT. The motors and micro:bit will be reset when:
+
+ - Power switch is turned off and turned on while both  DC barrel plug and micor B is connected
+ - DC barrel plug is plugged out and plugged in while micro B cable is connected to micro:bit
+
 ```python
 from edubit import *
 
+#Move backward at half speed
+run_motor(Motor_M2, Direction_Backward, speed=128) 
+sleep(1000)
+
+#Brake motor
+brake_motor(Motor_M2)
+sleep(1000)
+
 while True:
-	power_monitor()
-	run_motor(Motor_All, Direction_Forward, speed=255) 
-	sleep(1000) 
+    power_monitor()
+    #Move forward at full speed
+    run_motor(Motor_M1, Direction_Forward, speed=255) 
+    sleep(1000)
+
+    #Brake motor
+    brake_motor(Motor_M1)
+    sleep(1000)
 ```
+
 
