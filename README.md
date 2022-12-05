@@ -319,7 +319,7 @@ while True:
 ```
 **Reset EDU:BIT**
 
-Add `power_monitor()` function in a *while loop* to monitor the power state of REKA:BIT. The motors and micro:bit will be reset when:
+Add `power_monitor()` function in a *while loop* to monitor the power state of EDU:BIT. The motors and micro:bit will be reset when:
 
  - Power switch is turned off and turned on while both  DC barrel plug and micor B is connected
  - DC barrel plug is plugged out and plugged in while micro B cable is connected to micro:bit
